@@ -1,0 +1,17 @@
+generated: '2026-07-21'
+method: searched
+source: https://trust.sidecarhealth.com/
+url: https://trust.sidecarhealth.com/
+certifications: []
+evidence:
+- source: https://trust.sidecarhealth.com/
+  kind: trust-center
+  detail: >-
+    Dedicated trust-center subdomain resolves and renders as the "Sidecar Health
+    Trust Center". Content is JavaScript-rendered (SafeBase/Vanta-style portal);
+    named certifications could not be extracted verbatim from the static HTML and
+    are left empty rather than fabricated.
+notes: >-
+  Trust center presence verified; specific compliance certifications (e.g. SOC 2,
+  HIPAA) are gated behind the JS portal and were not captured. Do NOT emit a
+  Compliance pointer until a named, published certification is confirmed.

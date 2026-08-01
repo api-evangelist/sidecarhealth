@@ -1,8 +1,29 @@
 aid: sidecarhealth
-name: Sidecarhealth
-description: 'Sidecarhealth is a company surfaced as a portfolio company of bond-capital and added to
-  the API Evangelist network as a stub for enrichment. Sector: healthtech. This profile is a lead awaiting
-  the enrichment pipeline.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sidecarhealth.png
+name: Sidecar Health
+description: >-
+  Sidecar Health is an American health-insurance company founded in 2018 by Patrick
+  Quigley and Veronica Osetinsky and headquartered in Columbus, Ohio. It offers
+  ACA-compliant major medical plans for large employers, available both fully
+  insured and as administrative-services-only (ASO) coverage for self-funded
+  employers. Its model centers on transparent, upfront cash pricing and open
+  provider access with no provider network and no prior-authorization requirement:
+  members may see any provider and, after meeting their deductible, pay only charges
+  above an assigned benefit amount. The company raised a $165M Series D led by Koch
+  Disruptive Technologies in 2024, and its plans are offered in Florida, Georgia,
+  and Ohio. Sidecar Health publishes no public developer platform or API; this
+  profile captures its verifiable web, security, and trust surfaces.
 url: https://raw.githubusercontent.com/api-evangelist/sidecarhealth/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +33,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Healthtech
+- Health Insurance
+- Insurance
+- Healthcare
+- Employer Benefits
+- Price Transparency
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +51,22 @@ maintainers:
 common:
 - type: Website
   url: https://sidecarhealth.com
+- type: TrustCenter
+  url: https://trust.sidecarhealth.com/
+- type: PrivacyPolicy
+  url: https://sidecarhealth.com/legal/privacy-statements
+- type: TermsOfService
+  url: https://sidecarhealth.com/legal/terms-of-use
+- type: Login
+  url: https://app.sidecarhealth.com/login
+- type: DomainSecurity
+  url: security/sidecarhealth-domain-security.yml
+- type: WellKnown
+  url: well-known/sidecarhealth-well-known.yml
+- type: TrustCenter
+  url: security/sidecarhealth-trust-center.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
